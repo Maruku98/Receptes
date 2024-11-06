@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: Apercu;
+    src: url(../Fonts/Apercu\ Regular.otf);
+}
+
+@font-face {
+    font-family: ApercuBold;
+    src: url(../Fonts/Apercu\ Bold.otf);
+}
+
+@font-face {
+    font-family: ApercuLight;
+    src: url(../Fonts/Apercu\ Light.otf);
+}
+
+@font-face {
+    font-family: KreonBold;
+    src: url(../Fonts/Kreon-Bold.ttf);
+}
+
+:root {
+    --green: #6bd6a6;
+    --brown: #d6a66b;
+    --imgHeight: 180px;
+}

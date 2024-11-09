@@ -26,7 +26,30 @@
 }
 
 :root {
-    --green: #6bd6a6;
-    --brown: #d6a66b;
-    --imgHeight: 180px;
+    --imgHeight: 11.25rem;
+    --pdtop: 12rem;
+}
+
+/* Light mode (default) */
+@media (prefers-color-scheme: light) {
+    :root {
+        --green: hsl(153, 57%, 63%);
+        --brown: #d6a66b;
+        --gray: #e7e7e7;
+        --lightGray: #f2f2f2;
+        --white: white;
+        --black: black;
+    }
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --green: #318138;
+        --brown: #e3a75f;
+        --gray: #3b4c5e;
+        --lightGray: #313f4e;
+        --white: #293542;
+        --black: white;
+    }
 }

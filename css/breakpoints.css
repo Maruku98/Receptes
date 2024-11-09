@@ -1,9 +1,57 @@
+/* BELOW 1980px */
 @media (max-width: 1150px) {
     html {
         font-size: 14px;
     }
 }
 
+@media (max-width: 1000px) {
+    html {
+        font-size: 13px;
+    }
+    .wrapper {
+        width: 52rem;
+    }
+    section div.recipe-grid {
+        grid-template-columns: 0.6fr 0.9fr 0.9fr;
+        grid-template-rows: repeat(5, auto);
+    }
+
+    div.recipe-grid aside:nth-of-type(1) {
+        grid-column: 1 / 2;
+        grid-row: 1 / 5;
+    }
+
+    div.recipe-grid aside:nth-of-type(2) {
+        grid-column: 1 / 2;
+        grid-row: 5 / 6;
+    }
+
+    div.recipe-grid aside:nth-of-type(3) {
+        grid-column: 2 / 4;
+        grid-row: 1 / 5;
+    }
+
+    div.recipe-grid aside:nth-of-type(4) {
+        display: none;
+    }
+
+    div.recipe-grid aside:nth-of-type(5) {
+        grid-column: 2 / 3;
+        grid-row: 5 / 6;
+    }
+
+    div.recipe-grid aside:nth-of-type(6) {
+        grid-column: 3 / 4;
+        grid-row: 5 / 6;
+    }
+    i:not(.fa-cookie-bite) {
+        font-size: 2rem;
+        margin-bottom: 0.8rem;
+    }
+}
+
+/* ABOVE 1980px */
 @media (min-width: 1950px) {
     html {
         font-size: 18px;

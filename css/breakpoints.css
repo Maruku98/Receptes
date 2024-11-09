@@ -6,11 +6,15 @@
 }
 
 @media (max-width: 1000px) {
+    :root {
+        --imgHeight: 9rem;
+    }
     html {
-        font-size: 13px;
+        /* font-size: 13px; */
     }
     .wrapper {
-        width: 52rem;
+        width: 80%;
+        min-width: 600px;
     }
     section div.recipe-grid {
         grid-template-columns: 0.6fr 0.9fr 0.9fr;

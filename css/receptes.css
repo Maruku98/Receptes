@@ -52,6 +52,7 @@ header {
 header nav {
     display: flex;
     justify-content: center;
+    min-width: 450px;
 }
 
 header nav a {
@@ -82,7 +83,6 @@ h2 {
 
 section {
     padding-top: 12rem;
-    /* min-height: 100dvh; */
 }
 
 section:nth-of-type(1) {
@@ -193,7 +193,7 @@ div.recipe-grid aside:nth-of-type(6) {
 
 div.img-container {
     position: relative;
-    top: calc(var(--pdtop) / 2);
+    top: calc(var(--imgHeight) / 2);
     text-align: center;
 }
 

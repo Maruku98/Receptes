@@ -52,7 +52,7 @@ header {
 header nav {
     display: flex;
     justify-content: center;
-    min-width: 450px;
+    min-width: 350px;
 }
 
 header nav a {

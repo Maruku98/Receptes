@@ -11,7 +11,7 @@ function App() {
     // Fetch recipes data
     useEffect(() => {
         async function fetchRecipes() {
-            const response = await fetch("../data/recipes.json");
+            const response = await fetch(`${import.meta.env.BASE_URL}data/recipes.json`);
             const data = await response.json();
             
             setRecipes(data);

@@ -1,7 +1,7 @@
 import "./Recipe.css";
 
 function Recipe({recipeData}) {
-    const {id, recipeName, ingredients, score, preparation, oven} = recipeData;
+    const {id, recipeName, ingredients, preparation, oven} = recipeData;
     const difficultyArray = new Array(5).fill(undefined);
 
     return (
@@ -15,16 +15,6 @@ function Recipe({recipeData}) {
                         {
                             ingredients.map((ingredient) => {
                                 return <p key={ingredient}>{ingredient}</p>;
-                            })
-                        }
-                    </aside>
-                    <aside className="secondary-box">
-                        {
-                            difficultyArray.map((n, index) => {
-                                const className = (index > score - 1)
-                                    ? "fa-solid fa-cookie-bite fade"
-                                    : "fa-solid fa-cookie-bite";
-                                return <i className={className} key={index}></i>;
                             })
                         }
                     </aside>

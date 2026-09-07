@@ -1,0 +1,139 @@
+{
+    "brownie": {
+        "id": "brownie",
+        "recipeName": "Brownie",
+        "ingredients":[
+            "2 ous",
+            "95 g de farina",
+            "170 g de mantega",
+            "50 g de sucre",
+            "130 g de xocolata amb llet",
+            "100 g de xocolata negra",
+            "35 g de cacau en pols",
+            "5 g de sal"
+        ],
+        "diffculty": 4,
+        "preparation":[
+            "Agafem una olla petita i desfem la mantega amb el foc a baixa intensitat. Un cop desfeta, la posem en un bol gran i la barregem amb el sucre.",
+            "Batem els 2 ous per separat i els afegim a la barreja.",
+            "Tornem a agafar l'olla petita i desfem la xocolata amb llet. En acabar, l'aboquem a la barreja i ho integrem tot.",
+            "Agafem els ingredients secs —la farina, el cacau en pols i la sal— i els barregem. A continuació, els afegim a la barreja amb l'ajuda d'un colador per tal d'evitar que es formin grumolls.",
+            "Posem el forn a preescalfar a 180 °C.",
+            "Ja amb la barreja preparada, esbocinem la xocolata negra en una taula de fusta amb un ganivet. Procurarem que ens quedin trossos ni gaire grans ni massa petits.",
+            "Finalment, afegim els trossos de xocolata negra a la barreja, remenem i ho posem al forn durant uns 15-20 min, comprovant que no se'ns cremi."
+        ],
+        "oven": {
+            "time": 20,
+            "temperature": 180
+        }
+    },
+    "pessic": {
+        "id": "pessic",
+        "recipeName": "Pa de pessic",
+        "ingredients":[
+            "4 ous",
+            "200 g de farina",
+            "125 g de iogurt",
+            "150 g de sucre",
+            "1 sobre de llevat",
+            "30 g d'oli d'oliva"
+        ],
+        "diffculty": 5,
+        "preparation":[
+            "Batem els ous en un bol i els barregem amb el sucre.",
+            "Afegim el iogurt i l'oli i seguim remenant fins a integrar-ho tot.",
+            "En un bol a part, barregem els ingredients secs —la farina i el llevat— i, a continuació, els afegim a la barreja amb l'ajuda d'un colador per tal d'evitar que es formin grumolls.",
+            "Posem el forn a preescalfar a 170 °C.",
+            "Freguem el motlle amb una mica d'oli d'oliva per evitar que la massa s'enganxi.",
+            "Aboquem la massa al motlle i ho deixem al forn durant 40 min."
+        ],
+        "oven": {
+            "time": 40,
+            "temperature": 170
+        }
+    },
+    "cookies": {
+        "id": "cookies",
+        "recipeName": "Cookies",
+        "ingredients":[
+            "1 ou",
+            "200 g de farina",
+            "100 g de mantega",
+            "150 g de sucre",
+            "8 g de llevat",
+            "150 g de gotes de xocolata"
+        ],
+        "diffculty": 3,
+        "preparation":[
+            "Posem la mantega en un bol gran i la barregem amb el sucre amb l'ajuda d'una llengua pastissera.",
+            "Aboquem l'ou a la barreja. Podem fer aquest pas i l'anterior alhora si ens costa molt barrejar només la mantega i el sucre.",
+            "Agafem els ingredients secs —la farina i el llevat— i els ajuntem. A continuació, els afegim a la barreja amb l'ajuda d'un colador per tal d'evitar que es formin grumolls.",
+            "Comencem a integrar-ho tot. Abans que la massa estigui del tot sòlida, afegim els xips de xocolata i seguim remenant.",
+            "Quan la massa comenci a agafar forma, la podem acabar d'amassar amb les mans. El punt ideal és quan no se'ns queda enganxada a les mans.",
+            "Deixem reposar la massa 10 min al congelador i, de mentres, posem el forn a preescalfar a 180 °C.",
+            "Passats els 10 min, traiem la massa, anem fent trossos petits-mitjans (que ens ocupin la meitat del palmell de la mà) i els donem forma de pilota. Abans de posar-les a la safata del forn les aplanem.",
+            "Opcionalment, podem tirar per sobre unes quantes gotes de xocolata més.",
+            "Finalment, ho posem al forn durant 15 - 20 min, comprovant de tant en tant que no se'ns cremin. El punt ideal és quan comencen a estar marroenetes per les vores."
+        ],
+        "oven": {
+            "time": "15 - 20",
+            "temperature": 180
+        }
+    },
+    "santiago": {
+        "id": "santiago",
+        "recipeName": "Pastís de Santiago",
+        "ingredients":[
+           "3 ous",
+           "160 g d'ametlles",
+           "140 g de sucre",
+           "50 g de mantega",
+           "Ratlladura d'una llimona*",
+           "Un xic de canyella*"
+        ],
+        "diffculty": 5,
+        "preparation":[
+            "Batem els ous i els barregem amb el sucre.",
+            "Agafem una olla petita i desfem la mantega amb el foc a baixa intensitat. La deixem refredar uns minuts.",
+            "Mentrestant, agafem les ametlles i les passem per la picadora. Ho fem en diverses tandes, aturant-nos per remoure l'ametlla amb una cullera i així assegurar-nos que queda ben triturada.",
+            "Barregem la mantega amb els ous i el sucre i, un cop estigui tot integrat, hi afegim l'ametlla triturada amb l'ajuda d'un colador per tal d'evitar que es formin grumolls.",
+            "Opcionalment, hi podem afegir també la ratlladura d'una llimona o un xic de canyella.",
+            "Posem el forn a preescalfar a 180 °C.",
+            "Freguem el motlle amb una mica d'oli d'oliva o mantega per evitar que la massa s'enganxi.",
+            "Aboquem la massa al motlle i el cobrim per sobre amb paper d'alumini. Ho deixem al forn durant 50 min a sota de tot.",
+            "Passats els 50 min, retirem el paper d'alumini i ho deixem 10 min més enmig del forn."
+        ],
+        "oven": {
+            "time": 50,
+            "temperature": 180
+        }
+    },
+    "cheescake": {
+        "id": "cheescake",
+        "recipeName": "Cheescake",
+        "ingredients":[
+            "4 ous",
+            "30 g de farina",
+            "200 g de sucre",
+            "400 g de formatge Philadelphia",
+            "200 g de nata líquida 35 % MG"
+        ],
+        "diffculty": 5,
+        "preparation":[
+            "Posem el forn a preescalfar a 220 °C.",
+            "Barregem el formatge Philadelphia amb el sucre fins que quedi ben integrat.",
+            "Afegim els ous i barregem a poc a poc, fins que ens quedi una massa groga entre sòlida i líquida.",
+            "Afegim la nata i tornem a remenar fins que ens quedi una massa líquida.",
+            "Finalment, afegim la farina a la barreja amb l'ajuda d'un colador per tal d'evitar que es formin grumolls.",
+            "Agafem el motlle i el cobrim per dins amb paper de forn. Cal adaptar-lo al màxim a la forma del motlle, evitant arrugues, perquè la massa no se'ns surti (el pastís s'inflarà) i ens quedi amb una forma maca i fàcil de tallar.",
+            "Aboquem la massa al motlle i donem copets pels costats per aplanar-la.",
+            "Fiquem la massa al mig del forn i la deixem 40 min.",
+            "Després dels 40 min, el pastís s'hauria de veure inflat i amb la part superior de color marró fosc. També tindrà una textura flonja. El deixem reposar a temperatura ambient 1 o 2 hores.",
+            "Un cop el cheescake s'hagi desinflat, el guardem a la nevera durant mínim 24 h."
+        ],
+        "oven": {
+            "time": 40,
+            "temperature": 220
+        }
+    }
+}

@@ -1,4 +1,3 @@
-# Receptes
-Receptes d'en Marc
+# DEV
 
-⚠️ Treball en progrés ⚠️
+Contains project source code

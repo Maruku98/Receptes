@@ -3,8 +3,9 @@ import { useState } from "react";
 import { useEffect } from "react";
 
 import "./App.css";
-import Header from "./Header/Header";
-import Recipe from "./Recipe/Recipe";
+import Header from "./Header/Header.jsx";
+import Recipe from "./Recipe/Recipe.jsx";
+import Page404 from "./Page404/Page404.jsx";
 
 function App() {
     const [recipes, setRecipes] = useState(null);
@@ -26,11 +27,16 @@ function App() {
         <>
             <BrowserRouter>
                 <Header />
-                <Routes>
-                    <Route path={`${URL_PREFIX}:recipeID`} element={
-                        recipes && <Recipe recipeData={recipes} />}
-                    />
-                </Routes>
+
+                <main>
+                    <Routes>
+                        <Route path={`${URL_PREFIX}:recipeID`} element={
+                            recipes && <Recipe recipeData={recipes} />}
+                        />
+
+                        <Route path="*" element={<Page404/>} />
+                    </Routes>
+                </main>
             </BrowserRouter>
         </>
     );

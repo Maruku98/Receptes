@@ -1,8 +1,10 @@
 import "./Recipe.css";
+import { useParams } from "react-router-dom";
 
 function Recipe({recipeData}) {
-    const {id, recipeName, ingredients, preparation, oven} = recipeData;
-    const difficultyArray = new Array(5).fill(undefined);
+    const { recipeID } = useParams();
+
+    const {id, recipeName, ingredients, preparation, oven} = recipeData[recipeID];
 
     return (
         <section id={id}>

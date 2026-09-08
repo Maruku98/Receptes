@@ -18,9 +18,13 @@ header nav a {
     padding: 1.6rem;
 }
 
-header nav a:hover {
+header nav a.active {
     background-color: var(--white);
-    color: var(--brown);
+    color: var(--green);
+}
+
+header nav a:hover {
+    color: var(--green);
 }
 
 a {

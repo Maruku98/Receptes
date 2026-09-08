@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { useState } from "react";
 import { useEffect } from "react";
 
@@ -32,6 +32,10 @@ function App() {
                     <Routes>
                         <Route path={`${URL_PREFIX}:recipeID`} element={
                             recipes && <Recipe recipeData={recipes} />}
+                        />
+
+                        <Route path={URL_PREFIX} element={
+                            recipes && <Navigate to={`${URL_PREFIX}brownie`} replace />}
                         />
 
                         <Route path="*" element={<Page404/>} />

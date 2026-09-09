@@ -5,6 +5,7 @@
     "react-router-dom": "^7.18.3"
   },
   "devDependencies": {
+    "typescript": "^7.0.2",
     "vite": "^8.2.2"
   },
   "scripts": {

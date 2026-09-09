@@ -1,16 +1,20 @@
 import "./Recipe.css";
-import Page404 from "../Page404/Page404.jsx";
+import Page404 from "../Page404/Page404.tsx";
 import { useParams } from "react-router-dom";
+import type { Recipe, RecipeContainer } from "../../types/recipe.ts";
 
-function Recipe({recipeData}) {
-    const { recipeID } = useParams();
-    const recipe = recipeData[recipeID];
+function Recipe({recipeData}: {recipeData: RecipeContainer}) {
+    // Send 404 if no ID is found
+    const { recipeID } = useParams<{recipeID: string}>();
+    if (!recipeID) return <Page404/>;
 
-    // Send 404 if no recipe is found in JSON
+    // Send 404 if ID matches no recipe in JSON data
+    const recipe: Recipe = recipeData[recipeID];
     if (!recipe) return <Page404/>;
 
-    // If foun, retrieve data
+    // If found, retrieve data
     const {id, recipeName, ingredients, preparation, oven} = recipe;
+
     return (
         <div id={id} className="wrapper">
             <h1>{recipeName}</h1>

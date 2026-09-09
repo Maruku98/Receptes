@@ -1,21 +1,22 @@
+import { useState, useEffect } from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import { useState } from "react";
-import { useEffect } from "react";
 
 import "./App.css";
-import Header from "./Header/Header.jsx";
-import Recipe from "./Recipe/Recipe.jsx";
-import Page404 from "./Page404/Page404.jsx";
+import Header from "./Header/Header.tsx";
+import Recipe from "./Recipe/Recipe.tsx";
+import Page404 from "./Page404/Page404.tsx";
+
+import type { RecipeContainer } from "../types/recipe.ts";
 
 function App() {
-    const [recipes, setRecipes] = useState(null);
+    const [recipes, setRecipes] = useState<RecipeContainer | null>(null);
     const URL_PREFIX = import.meta.env.BASE_URL;
 
     // Fetch recipes data
     useEffect(() => {
         async function fetchRecipes() {
             const response = await fetch(`${URL_PREFIX}data/recipes.json`);
-            const data = await response.json();
+            const data: RecipeContainer = await response.json();
             
             setRecipes(data);
         }
